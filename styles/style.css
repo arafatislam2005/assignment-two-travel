@@ -1,0 +1,20 @@
+.header-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-two {
+  display: flex;
+  padding-left: 5%;
+}
+.travel {
+  color: #ff5400;
+}
+.header-li {
+  display: flex;
+  list-style-type: none;
+  margin-right: 90px;
+  gap: 40px;
+}
+.header-ui-li {
+}
