@@ -27,3 +27,13 @@
   left: 27%;
   top: 130px;
 }
+.form-of-header {
+  position: absolute;
+  left: 25%;
+  top: 65%;
+  display: inline-flex;
+  padding: 16px;
+  gap: 24px;
+}
+.form-of-one {
+}
