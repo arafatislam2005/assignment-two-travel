@@ -27,13 +27,34 @@
   left: 27%;
   top: 130px;
 }
+.header-page {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  margin: 30px;
+  color: #fff;
+}
 .form-of-header {
   position: absolute;
   left: 25%;
   top: 65%;
+  text-decoration: none;
   display: inline-flex;
   padding: 16px;
   gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
 }
 .form-of-one {
+  text-align: center;
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+}
+.btn-form {
+  padding: 10px 26px;
+  border-radius: 8px;
+  background-color: #ff5400;
+  color: #fff;
 }
