@@ -16,5 +16,14 @@
   margin-right: 90px;
   gap: 40px;
 }
-.header-ui-li {
+/* header long images  */
+.header-image {
+  padding: 5% 10%;
+}
+.header-images-one {
+  position: absolute;
+  font-size: 64px;
+  color: #fff;
+  left: 27%;
+  top: 130px;
 }
