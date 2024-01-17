@@ -11,6 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
@@ -46,51 +53,61 @@
           <input class="form-of-one" type="text" placeholder="Where Go" />
           <input class="form-of-one" type="text" placeholder="When" />
           <input class="form-of-one" type="text" placeholder="Select Type" />
-          <button class="btn-form">Find Now</button>
+          <button class="btn-form">
+            <i class="fa-thin fa-magnifying-glass"> </i>Find Now
+          </button>
         </form>
       </div>
     </header>
     <section>
       <div class="section-one">
-        <div class="section-class-two">
-          <h3>Our Popular Tours</h3>
-        </div>
-
-        <div class="section-ul-li">
-          <p>
+        
+        <div
+        style="
+          display: flex;
+          align-items: center;
+          column-gap: 12px;
+          margin-top: 20px;
+        "
+      >
+    
+        <div style="padding: 10px; width: 100%">
+          <h1>Our Popular Tours</h1>
+          <p style="color: #5a5a5d;;" >
             Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
             odio sit massa. Sodales dictumst nec nibh pellentesque.
           </p>
+          <ul class="section-one-ul">
+            <li class="section-ul-li">
+              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+              nullam odio neque diam. Sociis erat at .
+            </li>
+            <li class="section-ul-li">
+              Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
+              porta lacus. Lectus suspendisse nullam.
+            </li>
+            <li class="section-ul-li">
+              Accumsan eget et turpis praesent lorem egestas enim elit bibendum.
+              Risus at in.
+            </li>
+            <p class="section-ul-li">
+              Amet consectetur. Vulputate commodo felis molestie risus ornare
+              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+              Habitant adipiscing risus natoque aliquet. Id bibendum nunc
+              senectus semper tincidunt.
+            </p>
+            <button class="btn-form">Read More</button>
+          </ul>
+          
         </div>
-        <ul class="section-one-ul">
-          <li class="section-ul-li">
-            Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam
-            odio neque diam. Sociis erat at .
-          </li>
-          <li class="section-ul-li">
-            Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
-            porta lacus. Lectus suspendisse nullam.
-          </li>
-          <li class="section-ul-li">
-            Accumsan eget et turpis praesent lorem egestas enim elit bibendum.
-            Risus at in.
-          </li>
-          <p class="section-ul-li">
-            Amet consectetur. Vulputate commodo felis molestie risus ornare
-            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-            Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus
-            semper tincidunt.
-          </p>
-        </ul>
-        <button class="btn-form">Read More</button>
-        <div class="section-image" style="top: 300%">
-          <img src="./Images/Rectangle 4.png" alt="" />
-        </div>
+        
+        <img style="width: 100%" src="./Images/Rectangle 4.png" alt="" />
+      </div>
       </div>
     </section>
 
     <section>
-      <div>
+      <div class="">
         <div class="section-two-title">
           <h3>Choose Your Destination</h3>
         </div>
@@ -101,7 +118,145 @@
             odio sit massa. Sodales dictumst nec nibh pellentesque.
           </p>
         </div>
+        <div class="gallery-container">
+          <div>
+            <div
+              class="gallary-one"
+              style="display: flex; align-items: center; column-gap: 12px"
+            >
+              <img style="width: 100%" src="./Images/Rectangle 5.png" alt="" />
+              <img style="width: 100%" src="./Images/Rectangle 8.png" alt="" />
+            </div>
+            <div
+              class="gallery-two"
+              style="
+                display: flex;
+                align-items: stretch;
+                column-gap: 12px;
+                margin-top: 20px;
+              "
+            >
+              <img style="width: 80%" src="./Images/Rectangle 6.png" alt="" />
+              <img style="width: 100%" src="./Images/Rectangle 7.png" alt="" />
+              <img style="width: 80%" src="./Images/Rectangle 9.png" alt="" />
+            </div>
+            <div
+              class="gallery-three"
+              style="
+                display: flex;
+                align-items: stretch;
+                column-gap: 12px;
+                margin-top: 20px;
+              "
+            >
+              <img style="width: 70%" src="./Images/Rectangle 10.png" alt="" />
+              <img style="width: 100%" src="./Images/Rectangle 11.png" alt="" />
+            </div>
+          </div>
       </div>
     </section>
+
+
+
+
+   <section>
+    <div class="making-card">
+    <div class="card">
+      <div class="gradient"></div>
+      <div class="info">
+        <div class="text"><img src="./Images/hotel 1.png" alt="">
+        <h3>Handpicked Hotels</h3>
+        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+        </div>
+        <div class="title" ></div>
+      </div>
+
+      <div class="time">Asia <span>09:00 pm</span>
+        
+      </div>
+      <div class="card">
+        <div class="gradient"></div>
+        <div class="info">
+          <div class="text"><img src="./Images/map 1.png 1.png" alt="">
+          <h3>Handpicked Hotels</h3>
+          <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+          </div>
+          <div class="title" ></div>
+        </div>
+  
+    
+      </div>
+      <div class="card">
+        <div class="gradient"></div>
+        <div class="info">
+          <div class="text"><img src="./Images/price-tag 1.png" alt="">
+          <h3>Handpicked Hotels</h3>
+          <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+          </div>
+        </div>
+  
+        <div class="time">Asia <span>09:00 pm</span>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+   </section>
+
+
+
+
+
+
+    <section>
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          column-gap: 12px;
+          margin-top: 20px;
+          
+        "
+      >
+        <div style="padding: 10px; text-align: center; width: 100%;">
+         
+         <div class="form-portfolio" >
+          <h1>Newsletter</h1>
+          <p>Get your daily dose of travel news & tips. Sign up today!</p>
+          <form action=""  > 
+            <input type="text" placeholder="Enter your name"> 
+            <br>
+            <input type="text" placeholder="Enter your Email">
+          </form>
+        </div>
+        </div>
+        <img style="width: 100%" src="./Images/Rectangle 7.png" alt="" />
+      </div>
+    </section>
+    <footer>
+      <div class="footer-main">
+        <div class="footer-one">
+          <img src="./Images/Group 40071 (2).png" alt="" />
+          <h3>Hero <span class="travel">Travel</span></h3>
+        </div>
+        <div class="footer-two">
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi
+            vitae blandit orci potenti vulputate. Leo <br />
+            erat maecenas vitae elementum ultricies nullam.
+          </p>
+        </div>
+        <div class="footer-icon">
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+        <hr />
+        <div class="footer-three">
+          <p>2017, All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
